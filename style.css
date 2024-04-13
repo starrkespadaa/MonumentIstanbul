@@ -1,0 +1,88 @@
+/* Styles CSS personnalisés */
+body {
+    font-family: Arial, sans-serif;
+    background-color: burlywood;
+    overflow-x: hidden; /* Empêcher le défilement horizontal */
+    font-size: 16px;
+  }
+  
+  /* CADRE IMG DESCRIPTION */
+  .jumbotron {
+    background-color: blanchedalmond;
+    color: rgb(48, 162, 255);
+    padding: 100px 20px;
+    margin-bottom: 0;
+    font-family: "Greconian";
+  }
+  
+  .container {
+    padding: 50px 20px;
+  }
+  
+  .card {
+    transition: transform 0.3s ease; /* Animation fluide */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Déplacer la carte vers le haut au survol */
+  }
+
+  /* OK CADRE IMG DESCRIPTION */
+/* Styles CSS personnalisés */
+body {
+  font-family: Arial, sans-serif;
+  background-color: burlywood;
+  overflow-x: hidden; /* Empêcher le défilement horizontal */
+}
+
+/* CADRE IMG DESCRIPTION */
+.jumbotron {
+  background-color: blanchedalmond;
+  color: rgb(0, 0, 0);
+  padding: 100px 20px;
+  margin-bottom: 0;
+  font-family: "Greconian";
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+.card {
+  transition: transform 0.3s ease; /* Animation fluide */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Déplacer la carte vers le haut au survol */
+}
+
+/* OK CADRE IMG DESCRIPTION */
+
+.card .description {
+  height: 0; /* Définir la hauteur initiale à 0 */
+  overflow: hidden; /* Cacher le contenu qui dépasse */
+  transition: height 2s ease; /* Transition de 2 secondes */
+}
+
+.card:hover .description {
+  height: auto; /* Redimensionner la hauteur à "auto" lors du survol */
+}
+
+
+/* Pour les écrans d'iPad en mode paysage */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Pour les écrans d'iPhone en mode portrait */
+@media only screen and (max-width: 414px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+
+
+  

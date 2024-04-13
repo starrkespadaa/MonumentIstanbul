@@ -36,13 +36,23 @@ body {
 }
 
 /* CADRE IMG DESCRIPTION */
-.jumbotron {
-  background-color: blanchedalmond;
-  color: rgb(0, 0, 0);
-  padding: 100px 20px;
-  margin-bottom: 0;
-  font-family: "Greconian";
+@font-face {
+    font-family: Greconian;
+    src: url('https://justtheskills.com/vendor/tokokoo/greconian.ttf') format('truetype'); /* URL directe vers le fichier de police TrueType */
 }
+
+body {
+    font-family: "Greconian", sans-serif; /* Utilisation de la police Greconian */
+}
+
+  .jumbotron {
+    background-color: blanchedalmond;
+    color: rgb(0, 0, 0);
+    padding: 100px 20px;
+    margin-bottom: 0;
+    font-family: "Greconian", sans-serif; /* Utilisation de la police Greconian */
+  }
+  
 
 .container {
   padding: 50px 20px;
